@@ -1,0 +1,135 @@
+{
+  "name" : "Registration",
+  "uuid" : "952d7f10-a521-416e-aaff-3b974b267e14",
+  "formType" : "IndividualProfile",
+  "formElementGroups" : [ {
+    "uuid" : "ceb3e4b7-5a4d-4752-bfa6-7cb23067f9cb",
+    "name" : "Address",
+    "displayOrder" : 1.0,
+    "display" : "Address",
+    "formElements" : [ {
+      "name" : "Street Address",
+      "uuid" : "8010ff26-31e7-4820-b329-8aa628fb8f18",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "0c531a35-968f-4196-862e-5da205175572"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : true
+    }, {
+      "name" : "City/Village",
+      "uuid" : "fcc98275-b157-41e6-92d5-a0fd1d8dd930",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "3351207b-af78-48d3-80a4-d27debef7a8e"
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : true
+    }, {
+      "name" : "District",
+      "uuid" : "81d406ed-ab15-4f35-8d6f-252dee4b146d",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "3c35d82f-26e6-4f4f-b3fe-36b3763fd54a"
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : true
+    }, {
+      "name" : "State",
+      "uuid" : "5e427236-8882-4e50-aa58-1cbb31703687",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "64591061-7974-4c07-bb6f-1d8262b7a6a8"
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : true
+    }, {
+      "name" : "Postal Code",
+      "uuid" : "2f82316d-fbfb-46df-8bbc-cdcb6d083f02",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "572a186e-383c-48a9-9b91-5ba856e85102"
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : true
+    } ],
+    "voided" : true
+  }, {
+    "uuid" : "bd08f60c-8cf8-4e81-a9c2-a13219b817bd",
+    "name" : "Registration",
+    "displayOrder" : 2.0,
+    "display" : "Registration",
+    "formElements" : [ {
+      "name" : "Mobile Number",
+      "uuid" : "028cd745-3ee8-4caf-a2e1-f6d4577c3fb5",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "7fd25947-7f66-4c2e-b086-fcf0e6671989"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "validFormat" : {
+        "regex" : "^[1-9]\\d{9}$|^[1-9]\\d{9}$",
+        "descriptionKey" : "InvalidNumber"
+      },
+      "mandatory" : true
+    }, {
+      "name" : "Household size",
+      "uuid" : "ed8ceee7-2db3-4d33-98c6-1ad0fd65cbf8",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "6f7fa24a-b7f4-4c13-8ba1-bd14b35108df"
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Household Size",
+      "uuid" : "00a3f277-f921-482a-b275-93a4a23874d2",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "920ab417-d876-4a3b-bfc6-795053bdac2f"
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : true,
+      "voided" : true
+    }, {
+      "name" : "Occupation",
+      "uuid" : "7f866f55-eae1-4f59-86b3-56ada09064a1",
+      "keyValues" : [ {
+        "key" : "ExcludedAnswers",
+        "value" : [ "Office Worker" ]
+      } ],
+      "concept" : {
+        "uuid" : "ba9ae6e8-f9c8-4680-92df-9d3ce14d1435"
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Occupation Details",
+      "uuid" : "e003a8d9-abae-4626-bc76-b698cd617bfb",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "c9451320-6df7-4b5a-9ef6-8451022cadd7"
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    } ]
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : ""
+}

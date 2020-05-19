@@ -1,0 +1,378 @@
+{
+  "name" : "COVID-19 Followup",
+  "uuid" : "e693842f-b664-4c65-a09e-7f7a71a4e319",
+  "formType" : "ProgramEncounter",
+  "formElementGroups" : [ {
+    "uuid" : "fe4c10a9-c2a8-4552-9dfd-cbd1406101fe",
+    "name" : "Travel History",
+    "displayOrder" : 1.0,
+    "display" : "Travel History",
+    "formElements" : [ {
+      "name" : "COVID-19 results for current infection",
+      "uuid" : "6ef197f8-314d-4327-8208-70cc4698a8d0",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "8f124980-f837-4b55-9853-1a4c3a1cec30"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "1) Travel outside India since Feb 1, 2020",
+      "uuid" : "34a003da-b089-497a-804e-981c118e7fbe",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "2e41a7b4-b176-4bce-9217-ca9e7e783fd3"
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Travel Details",
+      "uuid" : "bd215be2-83b4-4bdf-b34a-62ae5a5203c7",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "a8ae4714-c01b-49bd-b6d2-b9200b880c2e"
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    } ]
+  }, {
+    "uuid" : "7a5860ce-0af6-4ae8-96bd-694906445d8a",
+    "name" : "COVID-19 Contact",
+    "displayOrder" : 2.0,
+    "display" : "COVID-19 Contact",
+    "formElements" : [ {
+      "name" : "2) Any contact with a person who is COVID-19 positive",
+      "uuid" : "b552efb9-0037-49bc-825b-be3e40427438",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "db8724c9-21b8-4b3b-b92c-a1989749ebe6"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Where was the contact",
+      "uuid" : "9d3a38f9-62d0-40ea-9fe3-7ac122d2b65f",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "5ae506ea-4aec-46c0-9dc7-d8d244c0ef0e"
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    } ]
+  }, {
+    "uuid" : "214d682c-94e0-480a-a53c-9a73d6d2fd5c",
+    "name" : "Medical care",
+    "displayOrder" : 3.0,
+    "display" : "Medical care",
+    "formElements" : [ {
+      "name" : "Clinic visit",
+      "uuid" : "9eb48c21-5cac-4cdc-b5fd-2380daf8c251",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "fd47b9c7-7681-4283-af44-7b5d44aa7c74"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "3) Current signs and symptoms",
+      "uuid" : "043e484a-f2a1-4e89-b079-0af66f2eabe8",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "c634e0e8-b52c-4127-aa45-3d9ff21575f7"
+      },
+      "displayOrder" : 2.0,
+      "type" : "MultiSelect",
+      "mandatory" : true
+    }, {
+      "name" : "4) Any medical care availed recently ?",
+      "uuid" : "6a231f60-5488-4b3c-817b-2af410022673",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "409bc5f1-bea0-4230-ac31-fca70507d40b"
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Collect specimen for COVID-19 if the answer is yes to any one of the questions 1, 2 and 3 OR any 2 of the 7 symptoms in question 4 are present",
+      "uuid" : "68aaba3e-8ba1-4629-a469-13fa89ca4a1e",
+      "keyValues" : [ {
+        "key" : "editable",
+        "value" : false
+      } ],
+      "concept" : {
+        "uuid" : "9f92372e-3e16-43e4-be79-abaff8e94bfa"
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "Current signs and symptoms",
+      "uuid" : "69345c9d-cdf3-420b-8c1e-232d36922d81",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "c634e0e8-b52c-4127-aa45-3d9ff21575f7"
+      },
+      "displayOrder" : 5.0,
+      "type" : "MultiSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "GP visit",
+      "uuid" : "062236eb-989b-421d-ba09-e00ef6e78541",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "74973940-02ac-4e3f-8065-1015dde8edfe"
+      },
+      "displayOrder" : 6.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "Hospitalization",
+      "uuid" : "cd1198e2-2e7c-44fa-aeaf-3eb7be882fe9",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "c31ded2d-87b9-4c49-99df-e1e6424f5297"
+      },
+      "displayOrder" : 7.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    } ]
+  }, {
+    "uuid" : "64e0f764-9131-4cec-ab6a-0b62b789fdac",
+    "name" : "Current signs and symptoms",
+    "displayOrder" : 4.0,
+    "display" : "Current signs and symptoms",
+    "formElements" : [ {
+      "name" : "Fever",
+      "uuid" : "c392def6-f442-4bc6-a000-d94623b52ef7",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "f5207ffb-af03-4e41-9540-6bf7a6e42206"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "Cough",
+      "uuid" : "107afe1c-1cb2-428d-b116-61063af4e1f6",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "91b547c3-2490-4b09-b51c-1ef3edd40f42"
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "Sore Throat",
+      "uuid" : "2c5432b7-c473-48b7-a19a-f8c4ea550d83",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "9c850da4-b968-4e0c-a667-efee6f83454a"
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "Shortness of breath",
+      "uuid" : "ecb3a2dd-29c8-4253-9594-28f98b126155",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "187e18d0-9381-4964-8643-4b9542ff5b82"
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "Myalgia/General weakness",
+      "uuid" : "8bf6e8a7-2186-4ffb-a4a2-bbb9fdc12249",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "18ad3735-dab4-4272-b08a-2e0ff269014a"
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "loss of taste (ageusia)",
+      "uuid" : "cc1f8a38-ed3f-4ec2-968e-63bfd8082012",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "40117279-2864-490f-8c1f-3de2058240ba"
+      },
+      "displayOrder" : 6.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    }, {
+      "name" : "Loss of sense of smell (anosmia)",
+      "uuid" : "14801009-5817-4a5d-aa71-2eda76018e7e",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "1a520691-ee91-48f9-bd1f-f40040ea15cd"
+      },
+      "displayOrder" : 7.0,
+      "type" : "SingleSelect",
+      "mandatory" : false,
+      "voided" : true
+    } ],
+    "voided" : true
+  }, {
+    "uuid" : "28e7acf2-9e4c-4c4a-aea9-c699bab150f9",
+    "name" : "COVID-19 Details",
+    "displayOrder" : 5.0,
+    "display" : "COVID-19 Details",
+    "formElements" : [ {
+      "name" : "5) Specimen Collected",
+      "uuid" : "990d01a5-c489-4f31-b51e-135cec436aad",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "a0964c61-479a-4a2a-85b9-8c8307509693"
+      },
+      "displayOrder" : 1.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "6) Action taken based on symptom assessment",
+      "uuid" : "78c4d91b-8e26-4a22-b178-6003c062e1f8",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "e5ab03b0-7fbc-4ec0-91ca-65d4fc582ef0"
+      },
+      "displayOrder" : 2.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Trigger transport to hospital",
+      "uuid" : "9821c4ae-5966-4982-a20b-d5569c888799",
+      "keyValues" : [ {
+        "key" : "editable",
+        "value" : false
+      } ],
+      "concept" : {
+        "uuid" : "e6599148-1ef0-4a3d-b21a-16ea011cdc3d"
+      },
+      "displayOrder" : 3.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "7) Which COVID-19 test performed?",
+      "uuid" : "e8e2789d-8e0f-4560-a2f0-268f11cf40b9",
+      "keyValues" : [ {
+        "key" : "ExcludedAnswers",
+        "value" : [ "Not Applicable" ]
+      } ],
+      "concept" : {
+        "uuid" : "d9ce5a37-bf85-4414-8880-c26167625572"
+      },
+      "displayOrder" : 4.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "8) COVID-19 results for current infection",
+      "uuid" : "f74d4e0a-827c-480a-b9fb-d2c0438e9e92",
+      "keyValues" : [ {
+        "key" : "ExcludedAnswers",
+        "value" : [ "Not Applicable" ]
+      } ],
+      "concept" : {
+        "uuid" : "8f124980-f837-4b55-9853-1a4c3a1cec30"
+      },
+      "displayOrder" : 5.0,
+      "type" : "SingleSelect",
+      "mandatory" : true
+    }, {
+      "name" : "Complete official notification form",
+      "uuid" : "0fe51621-ed5e-4723-b177-93e5161b2eba",
+      "keyValues" : [ {
+        "key" : "editable",
+        "value" : false
+      } ],
+      "concept" : {
+        "uuid" : "1435e87d-d158-4bcb-b4da-1286368ea9a5"
+      },
+      "displayOrder" : 6.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "9) Co-morbidities",
+      "uuid" : "f2e42e7a-c08b-49bf-bf5f-cadf2d8d4d92",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "8bed0e4d-3c8c-47ed-a49f-5b7d74073133"
+      },
+      "displayOrder" : 7.0,
+      "type" : "MultiSelect",
+      "mandatory" : false
+    }, {
+      "name" : "10) Action taken based on positive COVID-19 result",
+      "uuid" : "e407f2fe-8899-4f72-8d2c-fd9c6bb4e7cb",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "95044677-4ed0-4251-9bd8-581ef1bff4ba"
+      },
+      "displayOrder" : 8.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "11) Official notification of person as COVID-19 positive",
+      "uuid" : "ed0c1a9f-ec89-43bb-85c8-5b698c01c69b",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "dcf31783-4cd6-4a18-8127-cfa9056ae60a"
+      },
+      "displayOrder" : 9.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "12) Contact tracing initiated",
+      "uuid" : "640927d2-192a-48a7-bdbb-37994364c5c6",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "e4a9c699-da86-4317-80c6-35b6de2803bf"
+      },
+      "displayOrder" : 10.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "13) If COVID-19 positive, was test repeated after 14 days",
+      "uuid" : "d40aaf1e-2c94-4b16-9af2-bc84bfb680a1",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "41f43d2a-8add-496e-a0d7-2a33fb928bb9"
+      },
+      "displayOrder" : 11.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    }, {
+      "name" : "14) Outcome of repeat test",
+      "uuid" : "7e6ef281-fcd2-420b-9956-f561941a161e",
+      "keyValues" : [ ],
+      "concept" : {
+        "uuid" : "55ea15b9-5768-420d-8ce0-39143731b28d"
+      },
+      "displayOrder" : 12.0,
+      "type" : "SingleSelect",
+      "mandatory" : false
+    } ]
+  } ],
+  "decisionRule" : "",
+  "visitScheduleRule" : "",
+  "validationRule" : ""
+}

@@ -1,0 +1,16 @@
+{
+  "organisation": "covid",
+  "catchments": [
+    {
+      "name": "Demo",
+      "uuid": "1aeb2c8e-3db1-11ea-b77f-2e728ce88125",
+      "type": "Test",
+      "locations": [
+        {
+          "uuid": "b247d552-3daf-11ea-b77f-2e728ce88125",
+          "comment": "Test"
+        }
+      ]
+    }
+  ]
+}

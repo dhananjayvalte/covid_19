@@ -1,0 +1,11 @@
+{
+  "organisationName" : "covid",
+  "operationalPrograms" : [ {
+    "uuid" : "b1202f4e-a101-4292-b17d-e97e55a53e14",
+    "program" : {
+      "uuid" : "974740b3-5364-487a-babb-9a7c107f73f3"
+    },
+    "name" : "COVID-19",
+    "programSubjectLabel" : "COVID-19"
+  } ]
+}

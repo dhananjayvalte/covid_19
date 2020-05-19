@@ -1,0 +1,10 @@
+{
+  "organisationName" : "covid",
+  "operationalEncounterTypes" : [ {
+    "uuid" : "f5da6886-4fa1-4761-9015-e6169bbef83a",
+    "encounterType" : {
+      "uuid" : "ae45bd69-cbe9-48b1-b9cc-7812ea7630e5"
+    },
+    "name" : "COVID-19 Followup"
+  } ]
+}

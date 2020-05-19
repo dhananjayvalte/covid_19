@@ -1,0 +1,13 @@
+[
+  {
+    "uuid": "0f34b8e4-4278-11ea-b77f-2e728ce88125",
+    "name": "admin@covid",
+    "password": "Password@123",
+    "email": "dhananjayv@satvix.com",
+    "phoneNumber": "+919145469779",
+    "organisationUUID": "0f34a8f4-4278-11ea-b77f-2e728ce88125",
+    "operatingIndividualScope": "None",
+    "admin": false,
+    "orgAdmin": true
+  }
+]

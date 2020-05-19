@@ -1,0 +1,816 @@
+[ {
+  "name" : "Action taken based on positive COVID-19 result",
+  "uuid" : "95044677-4ed0-4251-9bd8-581ef1bff4ba",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Self-isolation",
+    "uuid" : "1a43be6f-333e-4069-b541-28eab1557ba5",
+    "order" : 0.0
+  }, {
+    "name" : "Community care",
+    "uuid" : "68924d29-7685-484c-9730-ac90de590784",
+    "order" : 1.0
+  }, {
+    "name" : "Referral to PHC clinic",
+    "uuid" : "e11bea55-406f-4899-8cd4-e72f1a656888",
+    "order" : 2.0
+  }, {
+    "name" : "Referral to GP",
+    "uuid" : "f50d3b55-88ba-41a8-ba10-a17b9d745dd2",
+    "order" : 3.0
+  }, {
+    "name" : "Referred to hospital",
+    "uuid" : "1e2daf1a-6fd9-49d1-bd07-7e6229c044f7",
+    "order" : 4.0
+  }, {
+    "name" : "Not Applicable",
+    "uuid" : "711c3c35-86ea-4984-afcc-221d7d54f2d4",
+    "order" : 5.0
+  } ]
+}, {
+  "name" : "Action taken based on symptom assessment",
+  "uuid" : "e5ab03b0-7fbc-4ec0-91ca-65d4fc582ef0",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Self-isolation",
+    "uuid" : "1a43be6f-333e-4069-b541-28eab1557ba5",
+    "order" : 0.0
+  }, {
+    "name" : "Community care",
+    "uuid" : "68924d29-7685-484c-9730-ac90de590784",
+    "order" : 1.0,
+    "voided" : true
+  }, {
+    "name" : "Referral to PHC clinic",
+    "uuid" : "e11bea55-406f-4899-8cd4-e72f1a656888",
+    "order" : 2.0,
+    "voided" : true
+  }, {
+    "name" : "Referral to GP",
+    "uuid" : "f50d3b55-88ba-41a8-ba10-a17b9d745dd2",
+    "order" : 3.0,
+    "voided" : true
+  }, {
+    "name" : "Referred to hospital",
+    "uuid" : "1e2daf1a-6fd9-49d1-bd07-7e6229c044f7",
+    "order" : 4.0
+  }, {
+    "name" : "Not Applicable",
+    "uuid" : "711c3c35-86ea-4984-afcc-221d7d54f2d4",
+    "order" : 5.0,
+    "voided" : true
+  }, {
+    "name" : "Hospital visit",
+    "uuid" : "7412f9ed-7eae-4f4f-91f9-a38fdca66652",
+    "order" : 6.0
+  }, {
+    "name" : "None",
+    "uuid" : "e5b0b4bf-dc63-4f5b-b79f-3d7e0e903358",
+    "order" : 7.0
+  } ]
+}, {
+  "name" : "Any contact with a person who is COVID-19 positive",
+  "uuid" : "db8724c9-21b8-4b3b-b92c-a1989749ebe6",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  }, {
+    "name" : "Don't know",
+    "uuid" : "eb557d6d-1121-4d99-a8dd-df9df5c4051c",
+    "order" : 2.0
+  } ]
+}, {
+  "name" : "Asthma",
+  "uuid" : "0cda9ad4-d60f-44ea-b3f0-c73585e257a6",
+  "dataType" : "NA"
+}, {
+  "name" : "Cardiac disease",
+  "uuid" : "92cfa8f2-7baf-4f96-94a1-16c8be14a408",
+  "dataType" : "NA"
+}, {
+  "name" : "City/Village",
+  "uuid" : "3351207b-af78-48d3-80a4-d27debef7a8e",
+  "dataType" : "Text"
+}, {
+  "name" : "Clinic visit",
+  "uuid" : "fd47b9c7-7681-4283-af44-7b5d44aa7c74",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Clinic Visit.",
+  "uuid" : "b361b730-bc8c-41da-b026-27fb91647f71",
+  "dataType" : "NA"
+}, {
+  "name" : "Collect specimen for COVID-19 if the answer is yes to any one of the questions 1, 2 and 3 OR any 2 of the 7 symptoms in question 4 are present",
+  "uuid" : "9f92372e-3e16-43e4-be79-abaff8e94bfa",
+  "dataType" : "Text"
+}, {
+  "name" : "Community care",
+  "uuid" : "68924d29-7685-484c-9730-ac90de590784",
+  "dataType" : "NA"
+}, {
+  "name" : "Complete official notification form",
+  "uuid" : "f3969368-e1d7-46ca-898f-092cf3a25238",
+  "dataType" : "NA"
+}, {
+  "name" : "Complete official notification form.",
+  "uuid" : "1435e87d-d158-4bcb-b4da-1286368ea9a5",
+  "dataType" : "Text"
+}, {
+  "name" : "Contact tracing initiated",
+  "uuid" : "e4a9c699-da86-4317-80c6-35b6de2803bf",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "COPD",
+  "uuid" : "dc34deee-b1f0-438d-9f34-2bf348ed1419",
+  "dataType" : "NA"
+}, {
+  "name" : "Cough",
+  "uuid" : "91b547c3-2490-4b09-b51c-1ef3edd40f42",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Cough.",
+  "uuid" : "2a1bd666-fb40-4c58-a32d-a21806eb4a76",
+  "dataType" : "NA"
+}, {
+  "name" : "COVID-19 results for current infection",
+  "uuid" : "8f124980-f837-4b55-9853-1a4c3a1cec30",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Positive",
+    "uuid" : "393887ee-b65e-4646-839e-d07ccc6ce142",
+    "order" : 0.0
+  }, {
+    "name" : "Negative",
+    "uuid" : "5e465832-e698-452f-9644-7d5b0b336a9c",
+    "order" : 1.0
+  }, {
+    "name" : "Not Applicable",
+    "uuid" : "711c3c35-86ea-4984-afcc-221d7d54f2d4",
+    "order" : 2.0,
+    "voided" : true
+  }, {
+    "name" : "Result awaited",
+    "uuid" : "e05552cf-2608-4be5-b560-98ede787b173",
+    "order" : 3.0
+  } ]
+}, {
+  "name" : "Current signs and symptoms",
+  "uuid" : "c634e0e8-b52c-4127-aa45-3d9ff21575f7",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Fever.",
+    "uuid" : "a149a23f-7cf4-4457-9e4a-f642817cf488",
+    "order" : 0.0
+  }, {
+    "name" : "Cough.",
+    "uuid" : "2a1bd666-fb40-4c58-a32d-a21806eb4a76",
+    "order" : 1.0
+  }, {
+    "name" : "Sore Throat.",
+    "uuid" : "8996b3f4-46e2-4a95-9f0c-8b385c00f0c9",
+    "order" : 2.0
+  }, {
+    "name" : "Shortness of breath.",
+    "uuid" : "604616bd-e6eb-4f24-82f4-ce37a2c1970d",
+    "order" : 3.0
+  }, {
+    "name" : "Myalgia/General weakness.",
+    "uuid" : "23efa59c-9168-4bb3-a5df-3071ce1b34c3",
+    "order" : 4.0
+  }, {
+    "name" : "Loss of taste (ageusia).",
+    "uuid" : "94ba2509-8b9c-48ae-a7c0-6c55d14c9a85",
+    "order" : 5.0
+  }, {
+    "name" : "Loss of sense of smell (anosmia).",
+    "uuid" : "d2bc4eee-42df-41f2-8278-4a0710c23871",
+    "order" : 6.0
+  }, {
+    "name" : "None of the above",
+    "uuid" : "a7522ee0-f2f7-4ec8-b21a-15d31c2efeee",
+    "order" : 7.0
+  } ]
+}, {
+  "name" : "Daily wage labour",
+  "uuid" : "a48900c5-dcc7-4ee1-9786-1c5a1d7f942f",
+  "dataType" : "NA"
+}, {
+  "name" : "Date on which the test was performed?",
+  "uuid" : "a22d1e0e-ec98-45c0-8f9c-4c03c8fb35af",
+  "dataType" : "Date"
+}, {
+  "name" : "Deselect for suffer condition",
+  "uuid" : "5bcfa599-fc69-4a11-ba49-1a0fb229e6dd",
+  "dataType" : "NA"
+}, {
+  "name" : "Deselect for suffer condition.",
+  "uuid" : "17122e7f-ff35-4f99-9773-a6d854ffa4f7",
+  "dataType" : "Text"
+}, {
+  "name" : "Deselect the option",
+  "uuid" : "d6cb955f-27b0-4da4-acdd-5c4faca97e52",
+  "dataType" : "Text"
+}, {
+  "name" : "Diabetes",
+  "uuid" : "07be3c3d-6803-4ea3-9e81-3ca5633938af",
+  "dataType" : "NA"
+}, {
+  "name" : "Did you seek medical care?",
+  "uuid" : "c2a8db9f-7907-47b8-bf22-ed3d81796d4c",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "District",
+  "uuid" : "3c35d82f-26e6-4f4f-b3fe-36b3763fd54a",
+  "dataType" : "Text"
+}, {
+  "name" : "Do you suffer from any of the following conditions?",
+  "uuid" : "8bed0e4d-3c8c-47ed-a49f-5b7d74073133",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Asthma",
+    "uuid" : "0cda9ad4-d60f-44ea-b3f0-c73585e257a6",
+    "order" : 0.0
+  }, {
+    "name" : "Cardiac disease",
+    "uuid" : "92cfa8f2-7baf-4f96-94a1-16c8be14a408",
+    "order" : 1.0
+  }, {
+    "name" : "Hypertension",
+    "uuid" : "f5563b18-8695-4cd1-a29b-3a357abd87c1",
+    "order" : 2.0
+  }, {
+    "name" : "HIV",
+    "uuid" : "d7b70f24-7e07-431e-9e52-8257dd1aa0d5",
+    "order" : 3.0
+  }, {
+    "name" : "TB",
+    "uuid" : "e3bd84ce-b52a-46b0-8a67-6fbbee8bca13",
+    "order" : 4.0
+  }, {
+    "name" : "Diabetes",
+    "uuid" : "07be3c3d-6803-4ea3-9e81-3ca5633938af",
+    "order" : 5.0
+  }, {
+    "name" : "COPD",
+    "uuid" : "dc34deee-b1f0-438d-9f34-2bf348ed1419",
+    "order" : 6.0
+  }, {
+    "name" : "Pregnancy",
+    "uuid" : "fd0f23a3-f79b-4e86-856c-7703ddba174c",
+    "order" : 7.0
+  }, {
+    "name" : "Obesity",
+    "uuid" : "61c4ee94-3720-41f4-9f05-fccd93e58f77",
+    "order" : 8.0
+  }, {
+    "name" : "None",
+    "uuid" : "e5b0b4bf-dc63-4f5b-b79f-3d7e0e903358",
+    "order" : 9.0
+  } ]
+}, {
+  "name" : "Don't know",
+  "uuid" : "eb557d6d-1121-4d99-a8dd-df9df5c4051c",
+  "dataType" : "NA"
+}, {
+  "name" : "Enter Name of the Hospital",
+  "uuid" : "d1ccb6fb-7537-43d1-b7b0-58422c30bd82",
+  "dataType" : "Text"
+}, {
+  "name" : "Farmer",
+  "uuid" : "2c12b762-af7e-487f-b4e7-020c4f50e21f",
+  "dataType" : "NA"
+}, {
+  "name" : "Fever",
+  "uuid" : "f5207ffb-af03-4e41-9540-6bf7a6e42206",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Fever.",
+  "uuid" : "a149a23f-7cf4-4457-9e4a-f642817cf488",
+  "dataType" : "NA"
+}, {
+  "name" : "GeneXpert",
+  "uuid" : "4b899e7e-a468-4f40-8766-1ae0fd6caaa8",
+  "dataType" : "NA"
+}, {
+  "name" : "Government employee",
+  "uuid" : "d9a15b5e-4fba-4724-beff-193b6781c224",
+  "dataType" : "NA"
+}, {
+  "name" : "GP visit",
+  "uuid" : "74973940-02ac-4e3f-8065-1015dde8edfe",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Have you already been tested for COVID-19 ?",
+  "uuid" : "564c6b3b-eff9-401a-9500-a95e76e143f1",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Healthcare professional",
+  "uuid" : "1fe5da69-c9f6-448c-a19a-eb6485213a3f",
+  "dataType" : "NA"
+}, {
+  "name" : "HIV",
+  "uuid" : "d7b70f24-7e07-431e-9e52-8257dd1aa0d5",
+  "dataType" : "NA"
+}, {
+  "name" : "Hospital visit",
+  "uuid" : "7412f9ed-7eae-4f4f-91f9-a38fdca66652",
+  "dataType" : "NA"
+}, {
+  "name" : "Hospitalization",
+  "uuid" : "c31ded2d-87b9-4c49-99df-e1e6424f5297",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Hospitalization.",
+  "uuid" : "c81f239e-2b2d-4b8c-8c42-1fb5ea6ae598",
+  "dataType" : "NA"
+}, {
+  "name" : "Household Size",
+  "uuid" : "920ab417-d876-4a3b-bfc6-795053bdac2f",
+  "dataType" : "Numeric",
+  "lowAbsolute" : 1.0,
+  "highAbsolute" : 20.0,
+  "lowNormal" : 1.0,
+  "highNormal" : 20.0
+}, {
+  "name" : "Household size.",
+  "uuid" : "6f7fa24a-b7f4-4c13-8ba1-bd14b35108df",
+  "dataType" : "Numeric"
+}, {
+  "name" : "Hypertension",
+  "uuid" : "f5563b18-8695-4cd1-a29b-3a357abd87c1",
+  "dataType" : "NA"
+}, {
+  "name" : "If COVID-19 positive, was test repeated after 14 days",
+  "uuid" : "41f43d2a-8add-496e-a0d7-2a33fb928bb9",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Loss of sense of smell (anosmia)",
+  "uuid" : "1a520691-ee91-48f9-bd1f-f40040ea15cd",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Loss of sense of smell (anosmia).",
+  "uuid" : "d2bc4eee-42df-41f2-8278-4a0710c23871",
+  "dataType" : "NA"
+}, {
+  "name" : "loss of taste (ageusia)",
+  "uuid" : "40117279-2864-490f-8c1f-3de2058240ba",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Loss of taste (ageusia).",
+  "uuid" : "94ba2509-8b9c-48ae-a7c0-6c55d14c9a85",
+  "dataType" : "NA"
+}, {
+  "name" : "Mobile Number",
+  "uuid" : "7fd25947-7f66-4c2e-b086-fcf0e6671989",
+  "dataType" : "Numeric"
+}, {
+  "name" : "Myalgia/General weakness",
+  "uuid" : "18ad3735-dab4-4272-b08a-2e0ff269014a",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Myalgia/General weakness.",
+  "uuid" : "23efa59c-9168-4bb3-a5df-3071ce1b34c3",
+  "dataType" : "NA"
+}, {
+  "name" : "Negative",
+  "uuid" : "5e465832-e698-452f-9644-7d5b0b336a9c",
+  "dataType" : "NA"
+}, {
+  "name" : "No",
+  "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+  "dataType" : "NA"
+}, {
+  "name" : "None",
+  "uuid" : "e5b0b4bf-dc63-4f5b-b79f-3d7e0e903358",
+  "dataType" : "NA"
+}, {
+  "name" : "None of the above",
+  "uuid" : "a7522ee0-f2f7-4ec8-b21a-15d31c2efeee",
+  "dataType" : "NA"
+}, {
+  "name" : "Not Applicable",
+  "uuid" : "711c3c35-86ea-4984-afcc-221d7d54f2d4",
+  "dataType" : "NA"
+}, {
+  "name" : "Obesity",
+  "uuid" : "61c4ee94-3720-41f4-9f05-fccd93e58f77",
+  "dataType" : "NA"
+}, {
+  "name" : "Occupation",
+  "uuid" : "ba9ae6e8-f9c8-4680-92df-9d3ce14d1435",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Office Worker",
+    "uuid" : "30acc682-d8c1-46c7-9021-add9e335c34e",
+    "order" : 0.0,
+    "voided" : true
+  }, {
+    "name" : "Student",
+    "uuid" : "314b5b3f-22c4-4262-b223-84feeb803762",
+    "order" : 1.0
+  }, {
+    "name" : "Daily wage labour",
+    "uuid" : "a48900c5-dcc7-4ee1-9786-1c5a1d7f942f",
+    "order" : 2.0
+  }, {
+    "name" : "Farmer",
+    "uuid" : "2c12b762-af7e-487f-b4e7-020c4f50e21f",
+    "order" : 3.0
+  }, {
+    "name" : "Taxi/Auto/Bus driver",
+    "uuid" : "fd710e17-23c4-4cb4-bb68-1c554a8bceda",
+    "order" : 4.0
+  }, {
+    "name" : "Healthcare professional",
+    "uuid" : "1fe5da69-c9f6-448c-a19a-eb6485213a3f",
+    "order" : 5.0
+  }, {
+    "name" : "Shop/Retail business owner",
+    "uuid" : "bcb900e3-c2e1-4637-b305-deea06cb88a7",
+    "order" : 6.0
+  }, {
+    "name" : "Government employee",
+    "uuid" : "d9a15b5e-4fba-4724-beff-193b6781c224",
+    "order" : 11.0
+  }, {
+    "name" : "Private sector employee",
+    "uuid" : "15ea68ee-22e4-4f39-99d9-7de046743dee",
+    "order" : 12.0
+  }, {
+    "name" : "Self employed",
+    "uuid" : "068ade72-6d5b-4e54-b9d1-157803a32fb7",
+    "order" : 13.0
+  }, {
+    "name" : "Unemployed",
+    "uuid" : "107c11c1-5631-4adb-ac08-98e0a7d85ec7",
+    "order" : 14.0
+  }, {
+    "name" : "Other",
+    "uuid" : "f8a4656c-30d2-44b4-bf29-e3c28c25b533",
+    "order" : 15.0
+  } ]
+}, {
+  "name" : "Office Worker",
+  "uuid" : "30acc682-d8c1-46c7-9021-add9e335c34e",
+  "dataType" : "NA"
+}, {
+  "name" : "Official notification of person as COVID-19 positive",
+  "uuid" : "dcf31783-4cd6-4a18-8127-cfa9056ae60a",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Other",
+  "uuid" : "f8a4656c-30d2-44b4-bf29-e3c28c25b533",
+  "dataType" : "NA"
+}, {
+  "name" : "Other Occupation",
+  "uuid" : "c9451320-6df7-4b5a-9ef6-8451022cadd7",
+  "dataType" : "Text"
+}, {
+  "name" : "Outcome of repeat test",
+  "uuid" : "55ea15b9-5768-420d-8ce0-39143731b28d",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Positive",
+    "uuid" : "393887ee-b65e-4646-839e-d07ccc6ce142",
+    "order" : 0.0
+  }, {
+    "name" : "Negative",
+    "uuid" : "5e465832-e698-452f-9644-7d5b0b336a9c",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "PCR",
+  "uuid" : "266b9a07-22ea-4a32-9d7c-26b7ba38cab7",
+  "dataType" : "NA"
+}, {
+  "name" : "Positive",
+  "uuid" : "393887ee-b65e-4646-839e-d07ccc6ce142",
+  "dataType" : "NA"
+}, {
+  "name" : "Postal Code",
+  "uuid" : "572a186e-383c-48a9-9b91-5ba856e85102",
+  "dataType" : "Text"
+}, {
+  "name" : "Pregnancy",
+  "uuid" : "fd0f23a3-f79b-4e86-856c-7703ddba174c",
+  "dataType" : "NA"
+}, {
+  "name" : "Private sector employee",
+  "uuid" : "15ea68ee-22e4-4f39-99d9-7de046743dee",
+  "dataType" : "NA"
+}, {
+  "name" : "Rapid test",
+  "uuid" : "809ce1de-70f4-403b-8c26-8104b8ab5daf",
+  "dataType" : "NA"
+}, {
+  "name" : "Recent medical care",
+  "uuid" : "409bc5f1-bea0-4230-ac31-fca70507d40b",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Clinic Visit.",
+    "uuid" : "b361b730-bc8c-41da-b026-27fb91647f71",
+    "order" : 0.0
+  }, {
+    "name" : "Hospitalization.",
+    "uuid" : "c81f239e-2b2d-4b8c-8c42-1fb5ea6ae598",
+    "order" : 1.0
+  }, {
+    "name" : "None",
+    "uuid" : "e5b0b4bf-dc63-4f5b-b79f-3d7e0e903358",
+    "order" : 2.0
+  } ]
+}, {
+  "name" : "Referral to GP",
+  "uuid" : "f50d3b55-88ba-41a8-ba10-a17b9d745dd2",
+  "dataType" : "NA"
+}, {
+  "name" : "Referral to PHC clinic",
+  "uuid" : "e11bea55-406f-4899-8cd4-e72f1a656888",
+  "dataType" : "NA"
+}, {
+  "name" : "Referred to hospital",
+  "uuid" : "1e2daf1a-6fd9-49d1-bd07-7e6229c044f7",
+  "dataType" : "NA"
+}, {
+  "name" : "Result awaited",
+  "uuid" : "e05552cf-2608-4be5-b560-98ede787b173",
+  "dataType" : "NA"
+}, {
+  "name" : "Self employed",
+  "uuid" : "068ade72-6d5b-4e54-b9d1-157803a32fb7",
+  "dataType" : "NA"
+}, {
+  "name" : "Self-isolation",
+  "uuid" : "1a43be6f-333e-4069-b541-28eab1557ba5",
+  "dataType" : "NA"
+}, {
+  "name" : "Shop/Retail business owner",
+  "uuid" : "bcb900e3-c2e1-4637-b305-deea06cb88a7",
+  "dataType" : "NA"
+}, {
+  "name" : "Shortness of breath",
+  "uuid" : "187e18d0-9381-4964-8643-4b9542ff5b82",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Shortness of breath.",
+  "uuid" : "604616bd-e6eb-4f24-82f4-ce37a2c1970d",
+  "dataType" : "NA"
+}, {
+  "name" : "Sore Throat",
+  "uuid" : "9c850da4-b968-4e0c-a667-efee6f83454a",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Sore Throat.",
+  "uuid" : "8996b3f4-46e2-4a95-9f0c-8b385c00f0c9",
+  "dataType" : "NA"
+}, {
+  "name" : "Specimen for COVID-19 test collected?",
+  "uuid" : "a0964c61-479a-4a2a-85b9-8c8307509693",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "State",
+  "uuid" : "64591061-7974-4c07-bb6f-1d8262b7a6a8",
+  "dataType" : "Text"
+}, {
+  "name" : "Street Address",
+  "uuid" : "0c531a35-968f-4196-862e-5da205175572",
+  "dataType" : "Text"
+}, {
+  "name" : "Student",
+  "uuid" : "314b5b3f-22c4-4262-b223-84feeb803762",
+  "dataType" : "NA"
+}, {
+  "name" : "Taxi/Auto/Bus driver",
+  "uuid" : "fd710e17-23c4-4cb4-bb68-1c554a8bceda",
+  "dataType" : "NA"
+}, {
+  "name" : "TB",
+  "uuid" : "e3bd84ce-b52a-46b0-8a67-6fbbee8bca13",
+  "dataType" : "NA"
+}, {
+  "name" : "Travel Details",
+  "uuid" : "a8ae4714-c01b-49bd-b6d2-b9200b880c2e",
+  "dataType" : "Text"
+}, {
+  "name" : "Travel outside India since Feb 1, 2020",
+  "uuid" : "2e41a7b4-b176-4bce-9217-ca9e7e783fd3",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Trigger transport to hospital",
+  "uuid" : "b92edd7d-b8b8-464a-b6e0-56242a1aefb9",
+  "dataType" : "NA"
+}, {
+  "name" : "Trigger transport to hospital.",
+  "uuid" : "e6599148-1ef0-4a3d-b21a-16ea011cdc3d",
+  "dataType" : "Text"
+}, {
+  "name" : "Unemployed",
+  "uuid" : "107c11c1-5631-4adb-ac08-98e0a7d85ec7",
+  "dataType" : "NA"
+}, {
+  "name" : "Was the COVID-19 test performed?",
+  "uuid" : "0df85df6-e0f1-460b-abf1-6bfe336618c4",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "Yes",
+    "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+    "order" : 0.0
+  }, {
+    "name" : "No",
+    "uuid" : "b1db5718-5b8c-43e0-9416-fcb0665f8c49",
+    "order" : 1.0
+  } ]
+}, {
+  "name" : "Where was the contact",
+  "uuid" : "5ae506ea-4aec-46c0-9dc7-d8d244c0ef0e",
+  "dataType" : "Text"
+}, {
+  "name" : "Which COVID-19 test performed?",
+  "uuid" : "d9ce5a37-bf85-4414-8880-c26167625572",
+  "dataType" : "Coded",
+  "answers" : [ {
+    "name" : "PCR",
+    "uuid" : "266b9a07-22ea-4a32-9d7c-26b7ba38cab7",
+    "order" : 0.0
+  }, {
+    "name" : "GeneXpert",
+    "uuid" : "4b899e7e-a468-4f40-8766-1ae0fd6caaa8",
+    "order" : 1.0
+  }, {
+    "name" : "Rapid test",
+    "uuid" : "809ce1de-70f4-403b-8c26-8104b8ab5daf",
+    "order" : 2.0
+  }, {
+    "name" : "Not Applicable",
+    "uuid" : "711c3c35-86ea-4984-afcc-221d7d54f2d4",
+    "order" : 3.0,
+    "voided" : true
+  }, {
+    "name" : "Don't know",
+    "uuid" : "eb557d6d-1121-4d99-a8dd-df9df5c4051c",
+    "order" : 4.0
+  } ]
+}, {
+  "name" : "Yes",
+  "uuid" : "1e8ddd9a-4c2b-4c26-aee8-0a9fd533873c",
+  "dataType" : "NA"
+} ]
